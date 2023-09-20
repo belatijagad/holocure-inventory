@@ -1,0 +1,1401 @@
+{
+    "achievements": {
+      "huh": {
+        "flags": {},
+        "unlocked": 0
+      },
+      "10000damage": {
+        "flags": {},
+        "unlocked": 0
+      },
+      "grind": {
+        "flags": {},
+        "unlocked": 0
+      },
+      "anyaGachikoi": {
+        "flags": {},
+        "unlocked": 0
+      },
+      "shion10": {
+        "flags": {},
+        "unlocked": 1
+      },
+      "koboGachikoi": {
+        "flags": {},
+        "unlocked": 0
+      },
+      "guraGachikoi": {
+        "flags": {},
+        "unlocked": 0
+      },
+      "pacifist": {
+        "flags": {},
+        "unlocked": 0
+      },
+      "faunaClear": {
+        "flags": {},
+        "unlocked": 0
+      },
+      "ameClear": {
+        "flags": {},
+        "unlocked": 0
+      },
+      "risuClear": {
+        "flags": {},
+        "unlocked": 0
+      },
+      "midboss": {
+        "flags": {},
+        "unlocked": 1
+      },
+      "chocoGachikoi": {
+        "flags": {},
+        "unlocked": 0
+      },
+      "3hard": {
+        "flags": {},
+        "unlocked": true
+      },
+      "lv100": {
+        "flags": {},
+        "unlocked": 1
+      },
+      "delusional": {
+        "flags": {},
+        "unlocked": 1
+      },
+      "soraGachikoi": {
+        "flags": {},
+        "unlocked": 0
+      },
+      "kiaraClear": {
+        "flags": {},
+        "unlocked": 1
+      },
+      "fullyLoaded": {
+        "flags": {},
+        "unlocked": 0
+      },
+      "mioGachikoi": {
+        "flags": {},
+        "unlocked": 0
+      },
+      "sana10": {
+        "flags": {},
+        "unlocked": 0
+      },
+      "hardcoreGamer": {
+        "flags": {},
+        "unlocked": 0
+      },
+      "speedrunner": {
+        "flags": {},
+        "unlocked": 0
+      },
+      "millionaire": {
+        "flags": {},
+        "unlocked": 1
+      },
+      "iofiClear": {
+        "flags": {},
+        "unlocked": 0
+      },
+      "thankYou": {
+        "flags": {},
+        "unlocked": 0
+      },
+      "skillissue": {
+        "flags": {},
+        "unlocked": 1
+      },
+      "hallucinated": {
+        "flags": {},
+        "unlocked": 1
+      },
+      "digin": {
+        "flags": {},
+        "unlocked": 0
+      },
+      "1000damage": {
+        "flags": {},
+        "unlocked": 1
+      },
+      "firstboss": {
+        "flags": {},
+        "unlocked": 1
+      },
+      "aquaClear": {
+        "flags": {},
+        "unlocked": 0
+      },
+      "50hamburgers": {
+        "flags": {},
+        "unlocked": 1
+      },
+      "2hard": {
+        "flags": {},
+        "unlocked": 1
+      },
+      "risuGachikoi": {
+        "flags": {},
+        "unlocked": 0
+      },
+      "mikoClear": {
+        "flags": {},
+        "unlocked": 0
+      },
+      "ina10": {
+        "flags": {},
+        "unlocked": 1
+      },
+      "couchPotato": {
+        "flags": {},
+        "unlocked": 0
+      },
+      "melClear": {
+        "flags": {},
+        "unlocked": 0
+      },
+      "soraClear": {
+        "flags": {},
+        "unlocked": 0
+      },
+      "reineGachikoi": {
+        "flags": {},
+        "unlocked": 0
+      },
+      "subaruGachikoi": {
+        "flags": {},
+        "unlocked": 0
+      },
+      "mumeiClear": {
+        "flags": {},
+        "unlocked": 0
+      },
+      "ollie10": {
+        "flags": {},
+        "unlocked": 1
+      },
+      "muscle": {
+        "flags": {},
+        "unlocked": 1
+      },
+      "inaClear": {
+        "flags": {},
+        "unlocked": 1
+      },
+      "artblock": {
+        "flags": {},
+        "unlocked": 0
+      },
+      "moonaClear": {
+        "flags": {},
+        "unlocked": 0
+      },
+      "firstclear": {
+        "flags": {},
+        "unlocked": 1
+      },
+      "robocoClear": {
+        "flags": {},
+        "unlocked": 0
+      },
+      "plentyoffish": {
+        "flags": {},
+        "unlocked": 1
+      },
+      "buyingPower": {
+        "flags": {},
+        "unlocked": 1
+      },
+      "fleshWound": {
+        "flags": {},
+        "unlocked": 1
+      },
+      "fourthboss": {
+        "flags": {},
+        "unlocked": 1
+      },
+      "irysClear": {
+        "flags": {},
+        "unlocked": 1
+      },
+      "akiGachikoi": {
+        "flags": {},
+        "unlocked": 0
+      },
+      "fired": {
+        "flags": {},
+        "unlocked": 0
+      },
+      "barebones": {
+        "flags": {},
+        "unlocked": 0
+      },
+      "haatoClear": {
+        "flags": {},
+        "unlocked": 0
+      },
+      "kaelaClear": {
+        "flags": {},
+        "unlocked": 0
+      },
+      "kiaraGachikoi": {
+        "flags": {},
+        "unlocked": 0
+      },
+      "ollieClear": {
+        "flags": {},
+        "unlocked": 1
+      },
+      "calli10": {
+        "flags": {},
+        "unlocked": 0
+      },
+      "rhythmmaster": {
+        "flags": {},
+        "unlocked": 1
+      },
+      "wamy": {
+        "flags": {},
+        "unlocked": 1
+      },
+      "soloBeater": {
+        "flags": {},
+        "unlocked": 0
+      },
+      "baeGachikoi": {
+        "flags": {},
+        "unlocked": 0
+      },
+      "ollieGachikoi": {
+        "flags": {},
+        "unlocked": 0
+      },
+      "ameGachikoi": {
+        "flags": {},
+        "unlocked": 0
+      },
+      "azkiGachikoi": {
+        "flags": {},
+        "unlocked": 0
+      },
+      "koroneClear": {
+        "flags": {},
+        "unlocked": 0
+      },
+      "fubukiGachikoi": {
+        "flags": {},
+        "unlocked": 0
+      },
+      "toohalu": {
+        "flags": {},
+        "unlocked": 1
+      },
+      "employee": {
+        "flags": {},
+        "unlocked": 0
+      },
+      "melGachikoi": {
+        "flags": {},
+        "unlocked": 0
+      },
+      "obliterated": {
+        "flags": {},
+        "unlocked": 1
+      },
+      "calliGachikoi": {
+        "flags": {},
+        "unlocked": 0
+      },
+      "faunaGachikoi": {
+        "flags": {},
+        "unlocked": 0
+      },
+      "okayuClear": {
+        "flags": {},
+        "unlocked": 0
+      },
+      "akiClear": {
+        "flags": {},
+        "unlocked": 0
+      },
+      "koroneGachikoi": {
+        "flags": {},
+        "unlocked": 0
+      },
+      "payDay": {
+        "flags": {},
+        "unlocked": 1
+      },
+      "thirdboss": {
+        "flags": {},
+        "unlocked": 1
+      },
+      "guraClear": {
+        "flags": {},
+        "unlocked": 0
+      },
+      "lovenature": {
+        "flags": {},
+        "unlocked": 1
+      },
+      "robocoGachikoi": {
+        "flags": {},
+        "unlocked": 0
+      },
+      "irys10": {
+        "flags": {},
+        "unlocked": 1
+      },
+      "secondboss": {
+        "flags": {},
+        "unlocked": 1
+      },
+      "zetaClear": {
+        "flags": {},
+        "unlocked": 1
+      },
+      "mumeiGachikoi": {
+        "flags": {},
+        "unlocked": 0
+      },
+      "1hard": {
+        "flags": {},
+        "unlocked": 1
+      },
+      "bullethell": {
+        "flags": {},
+        "unlocked": 0
+      },
+      "powerLevelling": {
+        "flags": {},
+        "unlocked": 0
+      },
+      "fubukiClear": {
+        "flags": {},
+        "unlocked": 0
+      },
+      "yagoostatue": {
+        "flags": {},
+        "unlocked": 1
+      },
+      "kroniiGachikoi": {
+        "flags": {},
+        "unlocked": 0
+      },
+      "allcomplete": {
+        "flags": {},
+        "unlocked": 0
+      },
+      "idolPower": {
+        "flags": {},
+        "unlocked": 1
+      },
+      "zetaGachikoi": {
+        "flags": {},
+        "unlocked": 0
+      },
+      "mioClear": {
+        "flags": {},
+        "unlocked": 0
+      },
+      "calliClear": {
+        "flags": {},
+        "unlocked": 0
+      },
+      "luckyDay": {
+        "flags": {},
+        "unlocked": 1
+      },
+      "CEOnow": {
+        "flags": {},
+        "unlocked": 0
+      },
+      "matsuriClear": {
+        "flags": {},
+        "unlocked": 0
+      },
+      "reineClear": {
+        "flags": {},
+        "unlocked": 0
+      },
+      "kiara10": {
+        "flags": {},
+        "unlocked": 1
+      },
+      "shionGachikoi": {
+        "flags": {},
+        "unlocked": 0
+      },
+      "aquaGachikoi": {
+        "flags": {},
+        "unlocked": 0
+      },
+      "suiseiClear": {
+        "flags": {},
+        "unlocked": 1
+      },
+      "matsuriGachikoi": {
+        "flags": {},
+        "unlocked": 0
+      },
+      "sanaClear": {
+        "flags": {},
+        "unlocked": 0
+      },
+      "subaruClear": {
+        "flags": {},
+        "unlocked": 0
+      },
+      "harvest": {
+        "flags": {},
+        "unlocked": 1
+      },
+      "fishfearme": {
+        "flags": {},
+        "unlocked": 1
+      },
+      "okayuGachikoi": {
+        "flags": {},
+        "unlocked": 0
+      },
+      "welcomehome": {
+        "flags": {},
+        "unlocked": 1
+      },
+      "iDidIt": {
+        "flags": {},
+        "unlocked": 0
+      },
+      "justRNG": {
+        "flags": {},
+        "unlocked": 0
+      },
+      "hammertime": {
+        "flags": {},
+        "unlocked": 1
+      },
+      "koboClear": {
+        "flags": {},
+        "unlocked": 1
+      },
+      "azkiClear": {
+        "flags": {},
+        "unlocked": 0
+      },
+      "dontFail": {
+        "flags": {},
+        "unlocked": 1
+      },
+      "zeta10": {
+        "flags": {},
+        "unlocked": 1
+      },
+      "petDog": {
+        "flags": {},
+        "unlocked": 0
+      },
+      "donttouch": {
+        "flags": {},
+        "unlocked": 1
+      },
+      "lookImOnTV": {
+        "flags": {},
+        "unlocked": 0
+      },
+      "anyaClear": {
+        "flags": {},
+        "unlocked": 0
+      },
+      "iofiGachikoi": {
+        "flags": {},
+        "unlocked": 0
+      },
+      "freeStickers": {
+        "flags": {},
+        "unlocked": 1
+      },
+      "heyhey": {
+        "flags": {},
+        "unlocked": 1
+      },
+      "payToWin": {
+        "flags": {},
+        "unlocked": 0
+      },
+      "SCT": {
+        "flags": {},
+        "unlocked": 1
+      },
+      "moonaGachikoi": {
+        "flags": {},
+        "unlocked": 0
+      },
+      "welltrained": {
+        "flags": {},
+        "unlocked": 0
+      },
+      "inaGachikoi": {
+        "flags": {},
+        "unlocked": 0
+      },
+      "tankclass": {
+        "flags": {},
+        "unlocked": 0
+      },
+      "notTakingAnyChances": {
+        "flags": {},
+        "unlocked": 1
+      },
+      "mikoGachikoi": {
+        "flags": {},
+        "unlocked": 0
+      },
+      "shionClear": {
+        "flags": {},
+        "unlocked": 1
+      },
+      "oraora": {
+        "flags": {},
+        "unlocked": 0
+      },
+      "howcouldyou": {
+        "flags": {},
+        "unlocked": 1
+      },
+      "idolgroup": {
+        "flags": {},
+        "unlocked": 1
+      },
+      "haatoGachikoi": {
+        "flags": {},
+        "unlocked": 0
+      },
+      "irysGachikoi": {
+        "flags": {},
+        "unlocked": 0
+      },
+      "highwayrobbery": {
+        "flags": {},
+        "unlocked": 0
+      },
+      "dontNeed": {
+        "flags": {},
+        "unlocked": 0
+      },
+      "shinyfish": {
+        "flags": {},
+        "unlocked": 1
+      },
+      "sanaGachikoi": {
+        "flags": {},
+        "unlocked": 0
+      },
+      "stealfish": {
+        "flags": {},
+        "unlocked": 1
+      },
+      "lv50": {
+        "flags": {},
+        "unlocked": 1
+      },
+      "boing": {
+        "flags": {},
+        "unlocked": 1
+      },
+      "chocoClear": {
+        "flags": {},
+        "unlocked": 0
+      },
+      "ayameClear": {
+        "flags": {},
+        "unlocked": 0
+      },
+      "suiseiGachikoi": {
+        "flags": {},
+        "unlocked": 0
+      },
+      "kroniiClear": {
+        "flags": {},
+        "unlocked": 0
+      },
+      "safeISwear": {
+        "flags": {},
+        "unlocked": 1
+      },
+      "korone10": {
+        "flags": {},
+        "unlocked": 1
+      },
+      "nothoughts": {
+        "flags": {},
+        "unlocked": 0
+      },
+      "painPeko": {
+        "flags": {},
+        "unlocked": 1
+      },
+      "trueRNG": {
+        "flags": {},
+        "unlocked": 1
+      },
+      "rawstrength": {
+        "flags": {},
+        "unlocked": 1
+      },
+      "fullCollab": {
+        "flags": {},
+        "unlocked": 1
+      },
+      "timeToUpgrade": {
+        "flags": {},
+        "unlocked": 1
+      },
+      "kaelaGachikoi": {
+        "flags": {},
+        "unlocked": 0
+      },
+      "nomain": {
+        "flags": {},
+        "unlocked": 0
+      },
+      "ayameGachikoi": {
+        "flags": {},
+        "unlocked": 0
+      },
+      "bae10": {
+        "flags": {},
+        "unlocked": 0
+      },
+      "baeClear": {
+        "flags": {},
+        "unlocked": 0
+      }
+    },
+    "autoCook": "sushiset",
+    "skillDamage": 10,
+    "food": 5,
+    "growth": 3,
+    "unlockedFurniture": [
+      "gamerchaire",
+      "paintingB",
+      "glasstable",
+      "Microwave",
+      "marblebookshelf",
+      "plantpotC",
+      "woodenFloor2",
+      "clock",
+      "woodendivider",
+      "woodenCrate",
+      "bathstool",
+      "woodenDiningTable",
+      "couchA",
+      "woodenBed",
+      "woodenFloor"
+    ],
+    "farmPlants": [
+      [-1,-1,-1,0,0,0,0,0],
+      [-1,-1,-1,0,0,0,0,0],
+      [-1,-1,-1,0,0,0,0,0],
+      [-1,-1,-1,0,0,0,0,0],
+      [-1,-1,-1,0,0,0,0,0],
+      [-1,-1,-1,0,0,0,0,0],
+      [-1,-1,-1,0,0,0,0,0],
+      [-1,-1,-1,0,0,0,0,0]
+    ],
+    "specUnlock": 1,
+    "GROff": 0,
+    "haste": 5,
+    "mobUp": 0,
+    "holoCoins": 36709,
+    "unlockedItems": [
+      "BodyPillow",
+      "FullMeal",
+      "PikiPikiPiman",
+      "SuccubusHorn",
+      "Headphones",
+      "UberSheep",
+      "HolyMilk",
+      "Sake",
+      "FaceMask",
+      "Breastplate",
+      "Bandaid",
+      "PiggyBank",
+      "ChickensFeather",
+      "CreditCard",
+      "GorillasPaw",
+      "SuperChattoTime",
+      "Halu",
+      "InjectionAsacoco",
+      "IdolCostume",
+      "StudyGlasses",
+      "BlacksmithsGear",
+      "Membership",
+      "HopeSoda",
+      "GWSPill",
+      "NinjaHeadband",
+      "FocusShades",
+      "LabCoat",
+      "DevilHat",
+      "Shacklesss",
+      "Beetle"
+    ],
+    "manageEXP": 23,
+    "holoHouseSet": {},
+    "holoHouseWall": [
+      [-1,-1,-1,-1,-1],
+      [-1,-1,-1,-1,-1],
+      [-1,-1,-1,-1,-1],
+      [-1,-1,-1,-1,-1],
+      [-1,-1,-1,-1,-1],
+      [-1,-1,-1,-1,-1],
+      [-1,-1,-1,-1,-1],
+      [-1,-1,-1,-1,-1],
+      [-1,-1,-1,-1,-1],
+      [-1,-1,-1,-1,-1],
+      [-1,-1,-1,-1,-1],
+      [-1,-1,-1,-1,-1],
+      [-1,-1,-1,-1,-1],
+      [-1,-1,-1,-1,-1],
+      [-1,-1,-1,-1,-1],
+      [-1,-1,-1,-1,-1],
+      [-1,-1,-1,-1,-1],
+      [-1,-1,-1,-1,-1],
+      [-1,-1,-1,-1,-1],
+      [-1,-1,-1,-1,-1],
+      [-1,-1,-1,-1,-1],
+      [-1,-1,-1,-1,-1],
+      [-1,-1,-1,-1,-1],
+      [-1,-1,-1,-1,-1],
+      [-1,-1,-1,-1,-1],
+      [-1,-1,-1,-1,-1],
+      [-1,-1,-1,-1,-1]
+    ],
+    "tears": [
+      ["myth",14],
+      ["councilHope",115],
+      ["gamers",7],
+      ["gen0",15],
+      ["gen1",16],
+      ["gen2",5],
+      ["id1",27],
+      ["id2",30],
+      ["id3",140]
+    ],
+    "completedStages": [
+      [
+        "STAGE 1",
+        ["kiara","kobo","irys","ina","shion"]
+      ],
+      [
+        "STAGE 2",
+        ["irys"]
+      ],
+      [
+        "STAGE 1 (HARD)",
+        []
+      ],
+      [
+        "STAGE 3",
+        [
+          "irys",
+          "zeta"
+        ]
+      ],
+      [
+        "STAGE 4",
+        [
+          "suisei"
+        ]
+      ],
+      [
+        "STAGE 2 (HARD)",
+        [
+          "ollie"
+        ]
+      ],
+      [
+        "STAGE 3 (HARD)",
+        []
+      ],
+      [
+        "TIME STAGE 1",
+        []
+      ],
+      [
+        "HOLO HOUSE",
+        []
+      ]
+    ],
+    "GameVersionNumberMajor": 0.6,
+    "fishSand": 0,
+    "noSupers": 0,
+    "ATK": 10,
+    "noCollabs": 0,
+    "stamps": 1,
+    "unlockedStages": [
+      "STAGE 1",
+      "HOLO HOUSE",
+      "STAGE 2",
+      "STAGE 3",
+      "STAGE 1 (HARD)",
+      "STAGE 4",
+      "TIME STAGE 1",
+      "STAGE 2 (HARD)",
+      "STAGE 3 (HARD)"
+    ],
+    "unlockedWeapons": [
+      "PsychoAxe",
+      "Glowstick",
+      "SpiderCooking",
+      "Tailplug",
+      "BLBook",
+      "EliteLava",
+      "HoloBomb",
+      "HoloLaser",
+      "WamyWater",
+      "IdolSong",
+      "CEOTears",
+      "ENCurse",
+      "CuttingBoard",
+      "Sausage",
+      "XPotato",
+      "BounceBall"
+    ],
+    "trackedTime": 316958,
+    "regen": 5,
+    "specCDR": 5,
+    "enhanceUp": 5,
+    "EXP": 5,
+    "fandomEXP": [
+      ["kronii",32],
+      ["fubuki",4],
+      ["calli",6],
+      ["mel",8],
+      ["kobo",50],
+      ["suisei",20],
+      ["matsuri",8],
+      ["choco",2],
+      ["ayame",4],
+      ["haato",16],
+      ["reine",28],
+      ["none",0],
+      ["roboco",8],
+      ["fauna",40],
+      ["sora",4],
+      ["miko",10],
+      ["gura",10],
+      ["sana",40],
+      ["okayu",4],
+      ["aki",8],
+      ["irys",70],
+      ["kaela",40],
+      ["shion",20],
+      ["bae",40],
+      ["azki",12],
+      ["kiara",14],
+      ["aqua",4],
+      ["ina",18],
+      ["iofi",24],
+      ["korone",2],
+      ["moona",16],
+      ["ollie",38],
+      ["mio",12],
+      ["ame",10],
+      ["subaru",4],
+      ["mumei",38],
+      ["risu",20],
+      ["anya",20],
+      ["zeta",54]
+    ],
+    "GameVersionNumberMinor": 1693612726,
+    "moneyGain": 10,
+    "reroll": 10,
+    "itemLimit": 0,
+    "weaponLimit": 0,
+    "holoHouseFloor": [
+      [
+        [
+          {
+            "id": "woodenBed",
+            "spriteWidth": 32,
+            "gridData": [
+              2,
+              3
+            ],
+            "scripts": {},
+            "furnitureIcon": 818,
+            "furnitureNumber": 0,
+            "sprites": [500,1351,1729,179],
+            "furnitureCost": 0,
+            "furnitureDescription": "this is a placeholder",
+            "furnitureID": "woodenBed",
+            "furnitureName": "Wooden Bed (Blue)",
+            "furnitureType": "beds",
+            "customDrawScriptAbove": {},
+            "furnitureUnlocked": 1,
+            "spriteHeight": 3,
+            "isSolid": 1
+          },
+          0,
+          [0,0]
+        ],
+        -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1],
+      [-1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1],
+      [-1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1],
+      [-1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1],
+      [-1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1],
+      [-1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1],
+      [-1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1],
+      [-1,-1,
+        [
+          {
+            "id": "woodendivider",
+            "spriteWidth": 16,
+            "gridData": [1,1],
+            "scripts": {},
+            "furnitureIcon": 1748,
+            "furnitureNumber": 75,
+            "sprites": [0,0,525,525],
+            "furnitureCost": 10000,
+            "furnitureDescription": "this is a placeholder",
+            "furnitureID": "woodendivider",
+            "furnitureName": "Wooden Divider",
+            "furnitureType": "structure",
+            "customDrawScriptAbove": {},
+            "furnitureUnlocked": 1,
+            "spriteHeight": 1,
+            "isSolid": 1
+          },
+          0,
+          [7,2]
+        ],
+        -1, -1, -1, -1, -1, -1, -1, -1, -1, -1
+      ],
+      [
+        -1,
+        [
+          {
+            "id": "woodendivider",
+            "spriteWidth": 16,
+            "gridData": [1,1],
+            "scripts": {},
+            "furnitureIcon": 1748,
+            "furnitureNumber": 75,
+            "sprites": [0,0,525,525],
+            "furnitureCost": 10000,
+            "furnitureDescription": "this is a placeholder",
+            "furnitureID": "woodendivider",
+            "furnitureName": "Wooden Divider",
+            "furnitureType": "structure",
+            "customDrawScriptAbove": {},
+            "furnitureUnlocked": 1,
+            "spriteHeight": 1,
+            "isSolid": 1
+          },
+          3,
+          [8,1]
+        ],
+        [
+          {
+            "id": "woodendivider",
+            "spriteWidth": 16,
+            "gridData": [1,1],
+            "scripts": {},
+            "furnitureIcon": 1748,
+            "furnitureNumber": 75,
+            "sprites": [0,0,525,525],
+            "furnitureCost": 10000,
+            "furnitureDescription": "this is a placeholder",
+            "furnitureID": "woodendivider",
+            "furnitureName": "Wooden Divider",
+            "furnitureType": "structure",
+            "customDrawScriptAbove": {},
+            "furnitureUnlocked": 1,
+            "spriteHeight": 1,
+            "isSolid": 1
+          },
+          2,
+          [8,2]
+        ],
+        [
+          {
+            "id": "woodendivider",
+            "spriteWidth": 16,
+            "gridData": [1,1],
+            "scripts": {},
+            "furnitureIcon": 1748,
+            "furnitureNumber": 75,
+            "sprites": [0, 0, 525, 525],
+            "furnitureCost": 10000,
+            "furnitureDescription": "this is a placeholder",
+            "furnitureID": "woodendivider",
+            "furnitureName": "Wooden Divider",
+            "furnitureType": "structure",
+            "customDrawScriptAbove": {},
+            "furnitureUnlocked": 1,
+            "spriteHeight": 1,
+            "isSolid": 1
+          },
+          1,
+          [8,3]
+        ],
+        -1, -1, -1, -1, -1, -1, -1, -1, -1
+      ],
+      [-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],
+      [-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],
+      [-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],
+      [-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],
+      [-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],
+      [-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],
+      [-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],
+      [-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],
+      [-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],
+      [-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],
+      [-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],
+      [-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],
+      [-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],
+      [-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],
+      [-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],
+      [-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],
+      [-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],
+      [-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1]
+    ],
+    "cookingOn": 1,
+    "rodUnlock": [1,1,1,1,1,1],
+    "seenCollabs": [
+      "EliteCooking",
+      "DragonBeam",
+      "BLLover",
+      "MariLamy",
+      "IdolConcert",
+      "IdolLive",
+      "StarHalberd",
+      "KanaCoco",
+      "BoneBros",
+      "SnowSake",
+      "Jingisukan",
+      "MiKorone",
+      "RingOfFitness",
+      "RapDog",
+      "ImDie"
+    ],
+    "enchantments": 1,
+    "fandom": 1,
+    "refund": 0,
+    "challenge": 0,
+    "timeModeUnlocked": true,
+    "unlockedCharacters": 0,
+    "unlockedOutfits": [
+      "default",
+      "inaAlt1",
+      "kroniiAlt1",
+      "mioAlt2",
+      "suiseiAlt1",
+      "mikoAlt2",
+      "matsuriAlt1",
+      "subaruAlt1",
+      "melAlt1",
+      "faunaAlt1",
+      "irysAlt3",
+      "sanaAlt1",
+      "faunaAlt2",
+      "kroniiAlt2"
+    ],
+    "eliminate": 10,
+    "randomMoneyKey": 668,
+    "fishRod": 5,
+    "inventory": [
+      ["shrimp",0,500],
+      ["clownfish",0,542],
+      ["standardsoil",0,2],
+      ["expeditedsoil",0,3],
+      ["enhancedsoil",0,56],
+      ["wheatSeed",0,5],
+      ["tomatoSeed",0,2],
+      ["potatoSeed",0,4],
+      ["riceSeed",0,2],
+      ["onionseed",0,2],
+      ["carrotseed",0,2],
+      ["greenbeansseed",0,2],
+      ["peppersseed",0,2],
+      ["strawberryseed",0,2],
+      ["cornseed",0,2],
+      ["radishseed",0,2],
+      ["garlicseed",0,34],
+      ["tuna",3,478],
+      ["eel",0,864],
+      ["koifish",0,588],
+      ["wheat",0,27],
+      ["lobster",0,891],
+      ["mantaray",0,810],
+      ["pufferfish",0,1085],
+      ["turtle",0,802],
+      ["squid",0,581],
+      ["goldenturtle",0,1],
+      ["shark",0,223],
+      ["garlic",9,177],
+      ["axolotl",0,41],
+      ["potato",13,18],
+      ["tomato",0,7],
+      ["rice",6,6],
+      ["onion",16,16],
+      ["carrot",10,10],
+      ["greenbeans",6,6],
+      ["corn",7,7],
+      ["peppers",7,7],
+      ["strawberry",5,5],
+      ["radish",9,9]
+    ],
+    "pickupRange": 10,
+    "LocalScores": {
+      "STAGE 1 (HARD)": {
+        "irys": {
+          "daily": {
+            "score": {
+              "level": 100,
+              "duration": 1787,
+              "score": 1412905
+            },
+            "timestamp": 45160.70434606481
+          },
+          "allTime": {
+            "level": 100,
+            "duration": 1787,
+            "score": 1412905
+          }
+        }
+      },
+      "STAGE 3": {
+        "irys": {
+          "daily": {
+            "score": {
+              "level": 63,
+              "duration": 1492,
+              "score": 612496
+            },
+            "timestamp": 45160.56876736111
+          },
+          "allTime": {
+            "level": 63,
+            "duration": 1492,
+            "score": 612496
+          }
+        }
+      },
+      "STAGE 3 (HARD)": {
+        "irys": {
+          "daily": {
+            "score": {
+              "level": 63,
+              "duration": 920,
+              "score": 689407
+            },
+            "timestamp": 45162.02183449074
+          },
+          "allTime": {
+            "level": 63,
+            "duration": 920,
+            "score": 689407
+          }
+        },
+        "kobo": {
+          "daily": {
+            "timestamp": 45170.52884837963,
+            "score": {
+              "level": 77,
+              "duration": 1436,
+              "score": 636403
+            }
+          },
+          "allTime": {
+            "level": 77,
+            "duration": 1436,
+            "score": 636403
+          }
+        }
+      },
+      "STAGE 2": {
+        "irys": {
+          "daily": {
+            "score": {
+              "level": 33,
+              "duration": 544,
+              "score": 281389
+            },
+            "timestamp": 45159.02730902778
+          },
+          "allTime": {
+            "level": 33,
+            "duration": 544,
+            "score": 281389
+          }
+        }
+      }
+    },
+    "DR": 5,
+    "SPD": 10,
+    "manageWorkers": [
+      [
+        "koboker",
+        934,
+        "Davito",
+        8,
+        1.1620885199401527,
+        45,
+        20,
+        9,
+        0,
+        "shrimp",
+        0,
+        7,
+        0.7005670782644291,
+        0,
+        2589
+      ],
+      [
+        "koboker",
+        934,
+        "PlausiblyShuu",
+        5,
+        1.19985747653991,
+        40,
+        19,
+        5,
+        0,
+        "wheat",
+        0,
+        3,
+        0.19914485923945957,
+        0,
+        1127
+      ],
+      [
+        "teamate",
+        1201,
+        "chickenWizard",
+        6,
+        1.1103628712240607,
+        39,
+        19,
+        5,
+        0,
+        "tomato",
+        0,
+        3,
+        1.8829029697924864,
+        0,
+        1789
+      ],
+      [
+        "pemaloe",
+        2058,
+        "Piprup",
+        6,
+        1.1305373527575284,
+        40,
+        18,
+        5,
+        0,
+        "wheat",
+        0,
+        3,
+        0.913761469302699,
+        0,
+        1486
+      ],
+      [
+        "pemaloe",
+        2058,
+        "DeeDoubleU",
+        5,
+        1.0558776675723494,
+        41,
+        19,
+        4,
+        0,
+        "tomato",
+        0,
+        2,
+        0.16763300271704829,
+        0,
+        1128
+      ],
+      [
+        "zecretary",
+        581,
+        "SireA",
+        4,
+        1.174557994119823,
+        30,
+        20,
+        3,
+        0,
+        "shrimp",
+        0,
+        1,
+        1.174557994119823,
+        0,
+        536
+      ]
+    ],
+    "firstTime": 0,
+    "characters": [
+      ["kronii",16],
+      ["fubuki",2],
+      ["calli",3],
+      ["mel",4],
+      ["kobo",52],
+      ["suisei",3],
+      ["matsuri",4],
+      ["choco",1],
+      ["ayame",2],
+      ["haato",8],
+      ["random",0],
+      ["reine",14],
+      ["none",0],
+      ["roboco",4],
+      ["fauna",20],
+      ["sora",2],
+      ["miko",5],
+      ["empty",0],
+      ["gura",5],
+      ["sana",23],
+      ["okayu",2],
+      ["aki",4],
+      ["irys",21],
+      ["kaela",43],
+      ["shion",3],
+      ["bae",22],
+      ["azki",6],
+      ["kiara",2],
+      ["aqua",2],
+      ["ina",4],
+      ["iofi",12],
+      ["korone",1],
+      ["moona",8],
+      ["ollie",9],
+      ["mio",6],
+      ["ame",5],
+      ["subaru",2],
+      ["mumei",19],
+      ["risu",10],
+      ["anya",10],
+      ["zeta",48]
+    ],
+    "characterClears": [
+      ["kiara",1],
+      ["kobo",1],
+      ["irys",3],
+      ["ina",1],
+      ["suisei",1],
+      ["ollie",1],
+      ["zeta",1],
+      ["shion",1]
+    ],
+    "manageLevel": 1,
+    "HP": 10,
+    "currentFood": ["",0],
+    "crit": 5
+  }

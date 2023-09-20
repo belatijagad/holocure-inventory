@@ -1,0 +1,22 @@
+{% extends '_base.html' %}
+{% load widget_tweaks form_filters %}
+
+{% block meta %}
+<title>Add items</title>
+{% endblock meta %}
+
+{% block content %}
+<div class="container mx-auto">
+    <h1>Add New Idol</h1>
+    
+    <form method="POST" class="flex flex-col" autocomplete="off">
+        {% csrf_token %}
+        {% for field in form %}
+            <div class="mb-4">
+                {{ field|common_attrs }}
+            </div>
+        {% endfor %}
+        <input type="submit" value="Add idol">
+    </form>
+</div>
+{% endblock content %}

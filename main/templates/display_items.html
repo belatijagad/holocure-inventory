@@ -1,0 +1,28 @@
+{% extends '_base.html' %}
+
+{% block meta %}
+<title>Display items</title>
+{% endblock meta %}
+
+{% block content %}
+<main class="container mx-auto">
+    <table>
+        <tr>
+            <th>Name</th>
+            <th>Description</th>
+        </tr>
+        
+        {% for idol in idols %}
+            <tr>
+                <td>{{idol.name}}</td>
+                <td>{{idol.tagline}}</td>
+            </tr>
+        {% endfor %}
+    </table>
+    <a href="{% url 'main:add_items' %}">
+        <button>
+            Add New Idol
+        </button>
+    </a>
+</main>
+{% endblock content %}
