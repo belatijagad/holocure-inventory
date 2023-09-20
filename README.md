@@ -52,7 +52,8 @@ Tambahkan aplikasi `main` sebagai `INSTALLED_APP` di `settings.py` dengan mengub
 INSTALLED_APPS = [
     ...,
     'main',
-]
+    'compressor',
+    'widget_tweaks',]
 ```
 
 #### Konfigurasi URL
