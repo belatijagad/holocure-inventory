@@ -10,14 +10,24 @@
         <tr>
             <th>Name</th>
             <th>Description</th>
+            <th>Superchats</th>
         </tr>
 
+        <h1>Halo {{ name }}</h1>
         <h1>There are currently {{idols.count}} idols in the database.</h1>
+        <h5>Sesi terakhir login: {{ last_login }}</h5>
         
         {% for idol in idols %}
             <tr>
                 <td>{{idol.name}}</td>
                 <td>{{idol.tagline}}</td>
+                <td>{{idol.superchats}}</td>
+                <td>
+                    <a href="{% url 'main:increment' idol.id %}">+</a>
+                </td>
+                <td>
+                    <a href="{% url 'main:decrement' idol.id %}">-</a>
+                </td>
             </tr>
         {% endfor %}
     </table>

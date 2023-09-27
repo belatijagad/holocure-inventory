@@ -1,7 +1,7 @@
 # Holocure Inventory
  
 ---
-# Tugas 1
+# Tugas 2
 # Implementasi di *Local Machine*
 ## Setup Awal
 ### 1. Pastikan *virtual environment* (venv) sudah aktif
@@ -129,7 +129,7 @@ Pola arsitektural yang sering digunakan pada aplikasi yang memerlukan banyak int
 - **View Model** — penengah antara *model* dan *view* yang mengandung logika presentasi dan mengubah data dari model menjadi format yang bisa ditampilkan oleh *view*. 
 
 ---
-# Tugas 2
+# Tugas 3
 # Apa perbedaan `GET` dan `POST` di Django?
 Method `GET` dan `POST` merupakan dua method yang paling sering digunakan dalam HTTP untuk berinteraksi dengan sumber daya yang dimiliki server. Berikut adalah 
 
@@ -225,3 +225,143 @@ urlpatterns = [
 
 ## XML
 ![xml-postman](./doc/postman_xml.png)
+
+---
+# Tugas 4
+
+## `UserCreationForm`
+`UserCreationForm` adalah form registrasi pengguna siap pakai yang disediakan oleh Django dalam modul `django.contrib.auth.forms`. Berikut adalah beberapa kelebihan dan kekurangan dari penggunaan form tersebut.
+### Kelebihan
+- Relatif sederhana untuk digunakan karena semua telah disiapkan oleh Django.
+- Validasi dasar yang sudah *built-in*.
+- Dukungan menambahkan captcha untuk melawan bot.
+### Kekurangan
+- Keterbatasan fungsi sebab `UserCreationForm` hanya memiliki *field* untuk *username* dan *password* saja.
+- Validasi dasar tidak cukup sehingga masih perlu dilengkapi lagi.
+- Bisa dikustomisasi namun dalam cakupan yang terbatas.
+
+## Perbedaan autentikasi dan otorisasi
+Autentikasi merupakan proses verifikasi identitas pengguna atau entitas, sedangkan otorisasi merupakan proses mengizinkan untuk memberi atau melarang akses kepada pengguna atau entitas setelah mereka diautentikasi.
+
+## Cookies dan cara kerjanya
+Cookies adalah mekanisme penyimpanan data yang digunakan oleh *browser* untuk menyimpan informasi kecil dalam bentuk teks di komputer pengguna. Berikut adalah cara kerjanya dalam langkah-langkah sederhana:
+1. Permintaan awal
+2. Respons dari server
+3. Browser menyimpan cookies
+4. Cookies dikirim ke server
+5. Server membaca cookies
+6. Server merespons berdasarkan cookies
+7. Siklus berulang
+
+## Resiko potensial penggunaan cookies
+Penggunaan cookies sendiri memiliki risiko potensial yang perlu diwaspadai, di antaranya adalah:
+1. Masalah privasi: cookies dapat digunakan untuk melacak perilaku dari pengguna tersebut secara online.
+2. Man in the middle attack: informasi dari cookies dapat dibajak oleh penyerang ketika cookies dikirim dari pengguna ke server.
+3. Cross-site scripting (XSS): informasi sensitif yang dikandung cookies dapat menjadi target serangan XSS. 
+
+## Implementasi
+### 1. Membuat form registrasi
+Untuk mengimplementasikan autentikasi, sebelumnya perlu dibuat bagian registrasi pada website. Untuk itu, pada `views.py` direktori `main` ditambahkan sebuah fungsi baru bernama register yang akan mengimplementasikan *built-in class* dari Django yang mengurus registrasi pengguna sebagai berikut:
+```py
+def register(request):
+    form = UserCreationForm()
+
+    if request.method == "POST":
+        form = UserCreationForm(request.POST)
+        if form.is_valid():
+            form.save()
+            messages.success(request, 'Your account has been successfully created!')
+            return redirect('main:login')
+    context = {'form':form}
+    return render(request, 'register.html', context)
+```
+
+Tidak lupa bahwa perlu dibuat laman `register` yang menampilkan fungsi tersebut.
+
+### 2. Membuat bagian login
+Setelah membuat fungsi registrasi, tentu diperlukan sebuah fungsi untuk otentikasi untuk masuk ke dalam akun yang sudah tercatat di dalam basis data. Untuk itu, perlu dibuat fungsi dan form login yang bisa menangani hal tersebut.
+```py
+def login_user(request):
+    if request.method == 'POST':
+        username = request.POST.get('username')
+        password = request.POST.get('password')
+        user = authenticate(request, username=username, password=password)
+        if user is not None:
+            login(request, user)
+            response = HttpResponseRedirect(reverse("main:show_main")) 
+            response.set_cookie('last_login', str(datetime.datetime.now()))
+            return response
+        else:
+            messages.info(request, 'Sorry, incorrect username or password. Please try again.')
+    context = {}
+    return render(request, 'login.html', context)
+```
+
+Pilihan untuk keluar juga perlu ditambahkan.
+
+```py
+def logout_user(request):
+    logout(request)
+    response = HttpResponseRedirect(reverse('main:login'))
+    response.delete_cookie('last_login')
+    return redirect('main:login')
+```
+
+Tidak lupa bahwa perlu dibuat laman `login` yang menampilkan kedua fungsi di atas.
+
+### 3. Restriksi akses 
+Halaman di dalam website dapat direstriksi aksesnya dengan cukup menambahkan sebuah *decorator* di atas fungsinya seperti di bawah.
+```py
+@login_required(login_url='/login')
+def foo(request):
+    return 'bar'
+```
+
+### 4. Menghubungkan `Model` dengan `User`
+Untuk menambahkan fungsionalitas agar data di dalam model hanya bisa diakses pengguna tertentu, sebuah *field* baru perlu ditambahkan ke dalam model. Dalam kasus ini, nama pengguna digunakan sebagai identitas pembuat data sehingga data tersebut hanya bisa diakses oleh pengguna yang membuatnya.
+```py
+class Idols(models.Model):
+    ...
+    user = models.ForeignKey(User, on_delete=models.CASCADE)
+    ...
+```
+
+Agar hal tersebut tercapai, bagian `display_items` perlu dimodifikasi sedikit agar hanya menampilkan data yang pengguna tersebut buat.
+
+```py
+def display_items(request):
+    idols = Idols.objects.filter(user=request.user)
+    context = {
+        'name': request.user.username,
+        'idols': idols,
+        'last_login': request.COOKIES['last_login']
+    }
+    return render(request, 'display_items.html', context)
+```
+
+## 5. Memasukkan semua fungsi `views` baru ke `url`
+Setelah semua fitur berhasil ditambahkan, *routing* fungsi baru perlu dicatat di dalam `urlpatters` pada `urls.py` milik `main`.
+```py
+urlpatterns = [
+    ...,
+    path('register/', register, name='register'),
+    path('login/', login_user, name='login'),
+    path('logout/', logout_user, name='logout'),
+    path('increment/<int:id>/', increment_superchat, name='increment'),
+    path('decrement/<int:id>/', decrement_superchat, name='decrement'),
+]
+```
+
+---
+# Tugas 5
+## Manfaat *element selector*
+*Element selector* dapat digunakan untuk mengubah keseluruhan elemen tertentu, misalnya `h1`, `p`, `div`, `body`, dan elemen-elemen lainnya. Kelebihan dari menggunakan *element selector* adalah kita tidak perlu memberi *class* kepada elemen-elemen yang ingin kita ubah sebab kita sudah menetapkan *styling* untuk keseluruhan elemen.
+
+## Tag HTML5
+Ada banyak sekali tag HTML5 yang tersedia, namun yang paling sering dipakai adalah `div` sebagai *wrapper* elemen, `p` dan `h<angka>` sebagai *wrapper* paragraf atau *heading*, dan `img` sebagai elemen yang menunjukkan gambar.
+
+## Perbedaan *margin* dan *padding*
+*Margin* mengatur jarak suatu elemen terhadap elemen-elemen lainnya, sedangkan *padding* mengatur jarak elemen yang berada di dalam suatu elemen terhadap *border* dari elemen tersebut.
+
+## Perbedaan TailwindCSS dengan Bootstrap
+Perbedaan TailwindCSS dengan Bootstrap sendiri terdapat pada *degree of customizability*-nya. Bootstrap menyediakan *class* CSS lengkap yang siap pakai dengan minimnya kebutuhan untuk kustomisasi sedangkan TailwindCSS menyediakan *styling* CSS dalam bentuk *class* sehingga tidak perlu menggunakan file CSS ekstra lagi.

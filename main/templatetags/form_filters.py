@@ -5,6 +5,6 @@ register = template.Library()
 
 @register.filter(name='common_attrs')
 def common_attrs(field):
-    field = add_class(field, "bg-slate-100 border-none")
-    field = set_attr(field, "placeholder:" + field.label)
+    field = add_class(field, "bg-slate-100 border-none resize-none")
+    field = set_attr(field, f"placeholder:{field.label}")
     return field
