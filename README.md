@@ -365,3 +365,24 @@ Ada banyak sekali tag HTML5 yang tersedia, namun yang paling sering dipakai adal
 
 ## Perbedaan TailwindCSS dengan Bootstrap
 Perbedaan TailwindCSS dengan Bootstrap sendiri terdapat pada *degree of customizability*-nya. Bootstrap menyediakan *class* CSS lengkap yang siap pakai dengan minimnya kebutuhan untuk kustomisasi sedangkan TailwindCSS menyediakan *styling* CSS dalam bentuk *class* sehingga tidak perlu menggunakan file CSS ekstra lagi.
+
+---
+# Tugas 6
+## Perbedaan Synchronous dan Asynchronous Programming
+### Synchronous
+- Linear Execution: Dalam pemrograman sinkron, kode dijalankan secara berurutan dari atas ke bawah. Setiap baris kode harus menyelesaikan eksekusinya sebelum kode selanjutnya dapat dijalankan.
+- Blocking: Jika ada operasi yang memakan waktu (seperti akses database atau panggilan API), eksekusi kode selanjutnya akan terhenti atau "terblokir" sampai operasi tersebut selesai. Ini berarti bahwa selama operasi tersebut berlangsung, tidak ada kode lain yang dapat dijalankan.
+- Simplicity: Pemrograman sinkron cenderung lebih mudah dipahami dan dikelola karena alurnya yang linear dan mudah diprediksi.
+
+### Asynchronous
+- Non-Linear Execution: Dalam pemrograman asinkron, kode dapat dijalankan secara bersamaan atau tanpa menunggu baris kode sebelumnya selesai. Ini memungkinkan program untuk melakukan tugas lain sambil menunggu suatu operasi selesai.
+- Non-Blocking: Operasi yang memakan waktu (seperti permintaan jaringan) tidak akan menghentikan eksekusi kode lain. Program dapat memulai operasi dan kemudian melanjutkan ke baris kode berikutnya tanpa menunggu operasi tersebut selesai.
+- Complexity: Pemrograman asinkron bisa lebih sulit untuk dimengerti dan dikelola karena adanya konsep seperti callback, promise, atau async/await yang digunakan untuk menangani operasi yang tidak selesai secara langsung.
+
+## Event Driven Programming
+Paradigma event-driven programming (pemrograman berbasis event) adalah pendekatan dalam pengembangan perangkat lunak di mana alur eksekusi program ditentukan oleh event atau kejadian, seperti aksi pengguna, input dari perangkat keras, atau pesan dari program lain. Dalam konteks JavaScript dan AJAX, ini menjadi sangat relevan karena kedua teknologi ini sering digunakan untuk membangun aplikasi web interaktif yang responsif terhadap tindakan pengguna dan perubahan data.
+
+Pada tugas ini, penggunaan event driven programming salah satunya adalah pada saat melakukan klik tombol increment decrement dan delete.
+
+## AJAX Asynchronous Programming
+Asynchronous programming adalah konsep kunci dalam penerapan AJAX (Asynchronous JavaScript and XML). AJAX memungkinkan aplikasi web untuk mengirim dan menerima data dari server secara asinkron, tanpa perlu memuat ulang seluruh halaman web. Ini meningkatkan pengalaman pengguna dengan membuat aplikasi web lebih responsif dan interaktif.

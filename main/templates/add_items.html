@@ -9,14 +9,27 @@
 <div class="container mx-auto">
     <h1>Add New Idol</h1>
     
-    <form method="POST" class="flex flex-col" autocomplete="off">
+    <form method="POST" class="flex flex-col" autocomplete="off" id="form", onsubmit="return false;">
         {% csrf_token %}
         {% for field in form %}
             <div class="mb-4">
                 {{ field|common_attrs }}
             </div>
         {% endfor %}
-        <input type="submit" value="Add idol">
+        <button type="button" id="button_add">Add Idol</button>
     </form>
 </div>
+<script>
+    function addProduct() {
+        console.log('tes')
+        fetch("{% url 'main:add_idols_ajax' %}", {
+            method: "POST",
+            body: new FormData(document.querySelector('#form'))
+        })
+
+        document.getElementById("form").reset()
+        return false
+    }
+    document.getElementById("button_add").onclick = addProduct;
+</script>
 {% endblock content %}

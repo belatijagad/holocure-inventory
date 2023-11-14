@@ -6,7 +6,11 @@
 
 {% block content %}
 <main class="container mx-auto">
-    <table>
+    <h1>Halo {{ name }}</h1>
+    <h1>There are currently {{idols.count}} idols in the database.</h1>
+    <h5>Sesi terakhir login: {{ last_login }}</h5>
+    <!-- <table id="idol-table"></table> -->
+    <!-- <table>
         <tr>
             <th>Name</th>
             <th>Description</th>
@@ -30,11 +34,52 @@
                 </td>
             </tr>
         {% endfor %}
-    </table>
+    </table> -->
+    <div id="idols_table" class="w-full flex flex-row gap-8">
+
+    </div>
     <a href="{% url 'main:add_items' %}">
         <button>
             Add New Idol
         </button>
     </a>
 </main>
+
+<script>
+    async function getIdols() {
+        return fetch("{% url 'main:get_idols' %}").then((res) => res.json())
+    }
+
+    async function remove(pk) {
+        fetch(`delete_idol/${pk}`).then(res =>
+        refreshProducts() 
+            // document.getElementById(`card-${pk}`).remove()
+        )
+    }
+    // .then(res => refreshProducts())
+
+    async function refreshProducts() {
+        document.getElementById("idols_table").innerHTML = ""
+        const idols = await getIdols()
+        let htmlString = ""
+        idols.forEach((idol) => {
+            let inc_url = `/increment/${idol.pk}/`
+            let dec_url = `/decrement/${idol.pk}/`
+            htmlString += `
+            <div class="card-${idol.pk}">
+                <h1>Name: ${idol.fields.name}</h1>
+                <p>Tagline: ${idol.fields.tagline}</p>
+                <p>Superchats: ${idol.fields.superchats}</p>
+                <a href=${inc_url}>+</a>
+                <a href=${dec_url}>-</a>
+                <button onclick="remove(${idol.pk})">Delete</button>
+            </div>
+            ` 
+        })
+        document.getElementById("idols_table").innerHTML = htmlString
+    }
+
+    refreshProducts()
+
+</script>
 {% endblock content %}

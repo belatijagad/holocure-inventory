@@ -1,5 +1,5 @@
 from django.shortcuts import render, redirect
-from django.http import HttpResponseRedirect, HttpResponse
+from django.http import HttpResponseRedirect, HttpResponse, HttpResponseNotFound, JsonResponse
 from main.forms import IdolsForm
 from django.urls import reverse
 from main.models import Idols
@@ -9,7 +9,9 @@ from django.contrib import messages
 from django.contrib.auth import authenticate, login, logout
 from django.contrib.auth.decorators import login_required
 import datetime
-
+from django.shortcuts import get_object_or_404
+from django.views.decorators.csrf import csrf_exempt
+from django.views.decorators.http import require_POST
 
 # Create your views here.
 def show_main(request):
@@ -98,3 +100,29 @@ def decrement_superchat(request, id):
         idol.superchats -= 1
         idol.save()
     return redirect('main:display_items')
+
+@csrf_exempt
+def add_idols_ajax(request):
+    if request.method == 'POST':
+        name = request.POST.get('name')
+        branch = request.POST.get('branch')
+        generation = request.POST.get('generation')
+        debut_date = request.POST.get('debut_date')
+        tagline = request.POST.get('tagline')
+        user = request.user
+
+        new_idol = Idols(name=name, branch=branch, generation=generation, debut_date=debut_date, tagline=tagline, user=user)
+        new_idol.save()
+
+        return HttpResponse(b"CREATED", status=201)
+
+    return HttpResponseNotFound()
+
+def get_idols_json(request):
+    product_item = Idols.objects.all()
+    return HttpResponse(serializers.serialize('json', product_item))
+
+def delete_idol(request, id):
+    obj = get_object_or_404(Idols, pk=id)
+    obj.delete()
+    return JsonResponse({"status": "success"})

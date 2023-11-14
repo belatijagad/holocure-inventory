@@ -12,6 +12,9 @@ from main.views import (
     logout_user,
     increment_superchat,
     decrement_superchat,
+    get_idols_json,
+    add_idols_ajax,
+    delete_idol,
 )
 
 app_name = 'main'
@@ -29,4 +32,7 @@ urlpatterns = [
     path('logout/', logout_user, name='logout'),
     path('increment/<int:id>/', increment_superchat, name='increment'),
     path('decrement/<int:id>/', decrement_superchat, name='decrement'),
+    path('get-idol/', get_idols_json, name='get_idols'),
+    path('add-idols-ajax/', add_idols_ajax, name='add_idols_ajax'),
+    path('delete_idol/<int:id>/', delete_idol, name='delete_idol'),
 ]
